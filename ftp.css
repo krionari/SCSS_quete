@@ -1,0 +1,191 @@
+@font-face
+{
+    font-family: 'aniron';
+    src: url('PoliceTitre/anicb___.ttf') format("truetype"),
+    url('PoliceTitre/anicm___.ttf') format("truetype"),
+    url('PoliceTitre/anirb___.ttf') format("truetype"),
+    url('PoliceTitre/anirm___.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: 'partybusiness';
+    src: url('PoliceTexte/partybusiness.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: 'tngani';
+    src: url('Symbole/tngani.ttf') format("truetype");
+}
+
+body{
+    background-image: url('Images/bg_light.png');
+}
+/* NavBar */
+
+.Navigation_bar
+{
+    background-color: rgb(255, 92, 0);
+}
+
+.Navigation_bar a
+{
+    font-family: 'aniron';
+    color: white !important;
+}
+
+.Fellows
+{
+    text-decoration: underline;
+}
+
+
+/* End NavBar */
+
+/* Footer */
+
+.page-footer
+{
+    background-color: rgb(255, 92, 0);
+}
+
+.page-footer
+{
+    padding-top: 10px;
+}
+
+.page-footer, a
+{
+    font-family: 'aniron';
+    color: white;
+    font-size: 18px;
+}
+
+.page-footer, a:hover
+{
+    color: white;
+}
+
+.blocLinkFooter
+{
+    margin: 0px -7% 0px -7%;
+}
+
+/*----------end footer-------*/
+
+/*----------body-------*/
+
+
+.anneauType1
+{
+    margin: 0px 2% 0px 2%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: solid #ff5c00 5px;
+    box-shadow: 1.7567567568px 1.7567567568px 6px #cc4a00 inset, 1.7567567568px 1.7567567568px 6px #cc4a00;
+}
+
+.anneauType2
+{
+    margin: 0px 2% 0px 2%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid #ffc500 20px;
+    box-shadow: 7.027027027px 7.027027027px 6px #cc9e00 inset, 7.027027027px 7.027027027px 6px #cc9e00;
+}
+
+.anneauType3_1 {
+    width: 33.3333333333px;
+    height: 33.3333333333px;
+    border-radius: 50%;
+    border: solid #252421 2.5641025641px;
+    box-shadow: 0.9009009009px 0.9009009009px 6px #0a0a09 inset, 0.9009009009px 0.9009009009px 6px #0a0a09;
+    margin-left: -10px;
+}
+
+.anneauType3_2 {
+    width: 66.6666666667px;
+    height: 66.6666666667px;
+    border-radius: 50%;
+    border: solid #252421 5.1282051282px;
+    box-shadow: 1.8018018018px 1.8018018018px 6px #0a0a09 inset, 1.8018018018px 1.8018018018px 6px #0a0a09;
+    margin-left: -20px;
+}
+
+.anneauType3_3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid #252421 7.6923076923px;
+    box-shadow: 2.7027027027px 2.7027027027px 6px #0a0a09 inset, 2.7027027027px 2.7027027027px 6px #0a0a09;
+    margin-left: -30px;
+}
+
+.anneauType3_4 {
+    width: 133.3333333333px;
+    height: 133.3333333333px;
+    border-radius: 50%;
+    border: solid #252421 10.2564102564px;
+    box-shadow: 3.6036036036px 3.6036036036px 6px #0a0a09 inset, 3.6036036036px 3.6036036036px 6px #0a0a09;
+    margin-left: -40px;
+}
+
+.anneauType3_5 {
+    width: 166.6666666667px;
+    height: 166.6666666667px;
+    border-radius: 50%;
+    border: solid #252421 12.8205128205px;
+    box-shadow: 4.5045045045px 4.5045045045px 6px #0a0a09 inset, 4.5045045045px 4.5045045045px 6px #0a0a09;
+    margin-left: -50px;
+}
+
+.anneauType3_6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid #252421 15.3846153846px;
+    box-shadow: 5.4054054054px 5.4054054054px 6px #0a0a09 inset, 5.4054054054px 5.4054054054px 6px #0a0a09;
+    margin-left: -60px;
+}
+
+.blocMyprecious
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.blocTheonering
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockAnneaux
+{
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p
+{
+    font-family: 'aniron';
+    font-size: 40px;
+}
+
+.thirdText
+{
+    text-align: center;
+}
+
+
+/*----------end body-------*/
+

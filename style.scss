@@ -1,0 +1,22 @@
+@mixin ring($size, $color) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  border: solid $color $size/13;
+  box-shadow: $size/37 $size/37 6px darken($color, 10%) inset,
+  $size/37 $size/37 6px darken($color,10%);
+}
+
+.anneauType1{
+  @include ring(65px, #ff5c00);}
+
+.anneauType2{
+  @include ring(260px, #ffc500);}
+
+
+@for $i from 1 through 6{
+  .anneauType3_#{$i}{
+    @include ring(100px * $i/3, #252421);
+    margin-left: 100px * -0.30 * $i/3;
+  }
+}
